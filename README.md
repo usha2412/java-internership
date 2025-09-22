@@ -1,2 +1,4 @@
 # java-internership
-projects - internsership
+Day -1 Calculator
+In this project, I learned use of 
+Switch, function
