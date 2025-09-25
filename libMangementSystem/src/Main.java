@@ -40,6 +40,7 @@ public class Main {
                 case 4 -> {
                     System.out.print("Enter user id: ");
                     int userId = scanner.nextInt();
+                    scanner.nextLine();
                     System.out.print("Enter book id: ");
                     int bookId = scanner.nextInt();
                     library.returnBook(userId, bookId);
@@ -48,6 +49,7 @@ public class Main {
                 case 5 -> {
                     System.out.print("Enter Book ID: ");
                     int id = scanner.nextInt();
+                    scanner.nextLine();
                     System.out.print("Enter Title: ");
                     String name = scanner.nextLine();
                     System.out.print("Enter Publisher: ");
@@ -62,6 +64,7 @@ public class Main {
                 case 6 -> {
                     System.out.print("Enter User Id: ");
                     int id = scanner.nextInt();
+                    scanner.nextLine();
                     System.out.println("Enter Name: ");
                     String name = scanner.nextLine();
                     library.addUser(new User(id, name));
